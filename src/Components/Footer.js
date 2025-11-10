@@ -77,22 +77,12 @@ export default function Footer() {
               <ul className="space-y-3 text-base">
                 <li>
                   <a href="#" className="text-white hover:underline">
-                    Eye Care
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-white hover:underline">
                     Cardiology
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-white hover:underline">
                     Dentist
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-white hover:underline">
-                    Pregnancy
                   </a>
                 </li>
               </ul>
