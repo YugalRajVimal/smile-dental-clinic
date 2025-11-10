@@ -70,11 +70,11 @@ const About = () => {
             </div>
 
             {/* Image Section */}
-            <div className="w-full md:w-[40%] relative aspect-square md:aspect-auto md:h-[600px]">
+            <div className="w-full md:w-[40%] relative aspect-square md:aspect-auto rounded-lg md:h-[600px]">
               <img
-                src="/smile-dental-care.jpg"
+                src="/den7.jpg"
                 alt="Smile Dental Care Clinic"
-                className="w-full h-full object-contain rounded-lg"
+                className="w-full h-full object-cover rounded-lg"
               />
 
               <div className="absolute -bottom-20 md:-bottom-24 -right-4 bg-gradient-to-r from-[#023893] to-[#3ec2ce] border border-danger/40 rounded-lg p-4 md:p-6 flex items-center justify-center">
