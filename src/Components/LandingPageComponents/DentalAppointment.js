@@ -90,7 +90,7 @@ export default function DentalAppointment() {
                 </span>
                 <br />
                 <a
-                  href="tel:8884567890"
+                  href="tel:+918799718615"
                   className="text-[#55ffd7] hover:underline font-semibold"
                 >
                   +918799718615
@@ -137,9 +137,9 @@ export default function DentalAppointment() {
             <div className="flex gap-4">
               <select className="w-1/2 border border-gray-200 rounded-xl py-3 px-4 text-base appearance-none transition focus:ring-2 focus:ring-[#7d88fd] focus:bg-[#f5f8ff] outline-none">
                 <option>Select Doctor</option>
-                <option>Dr. Sarah Lee</option>
-                <option>Dr. Kevin Smith</option>
-                <option>Dr. Priya Patel</option>
+                <option>Dr Himanshu Singh </option>
+                {/* <option>Dr. Kevin Smith</option>
+                <option>Dr. Priya Patel</option> */}
               </select>
               <input
                 className="w-1/2 border border-gray-200 rounded-xl py-3 px-4 text-base transition focus:ring-2 focus:ring-[#7d88fd] focus:bg-[#f5f8ff] outline-none"

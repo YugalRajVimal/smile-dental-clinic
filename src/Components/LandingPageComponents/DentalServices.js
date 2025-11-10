@@ -9,14 +9,14 @@ const services = [
     title: "Root Canal Treatment (Single Sitting) - 10% Off",
     desc: "Save time and money with our advanced single-visit root canal treatment, now at an exclusive 10% discount. Experience pain-free care for severely decayed or infected teeth.",
     icon: <FaTooth className="w-6 h-6 text-white" />, // Tooth icon
-    image: "/den1.jpg",
+    image: "/image5.jpeg",
   },
   {
     id: 2,
     title: "Implantologist - 20% Off",
     desc: "Restore missing teeth with permanent, natural-looking dental implants placed by our experienced implantologist, now at 20% off for a limited time.",
     icon: <FaUserMd className="w-6 h-6 text-white" />, // Doctor icon
-    image: "/den2.jpg",
+    image: "/image3.jpeg",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const services = [
     title: "Fillings",
     desc: "Restore decayed, cracked, or chipped teeth with modern, long-lasting dental fillings that blend seamlessly with your natural smile.",
     icon: <FaTooth className="w-6 h-6 text-white" />, // Tooth icon
-    image: "/banner22.jpg",
+    image: "/image1.jpeg",
   },
   {
     id: 7,
@@ -58,14 +58,14 @@ const services = [
     title: "Hair Transplant",
     desc: "Regain your hair and confidence with proven, minimally-invasive hair transplant solutions performed by qualified experts.",
     icon: <FaUserMd className="w-6 h-6 text-white" />, // Doctor icon (or change to a hair icon if desired)
-    image: "/banner11.jpg",
+    image: "/image4.jpeg",
   },
   {
     id: 9,
     title: "Skin Specialist",
     desc: "Avail advanced dermatological treatments for acne, pigmentation, anti-aging, and more from our experienced skin specialists.",
     icon: <FaUserMd className="w-6 h-6 text-white" />, // Doctor icon (or change to a skin/face icon if desired)
-    image: "/den6.jpg",
+    image: "/image2.jpeg",
   },
 ];
 
