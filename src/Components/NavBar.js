@@ -35,24 +35,17 @@ export default function Navbar() {
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-8">
           {[
-            "HOME",
-            "PAGES",
-            "SERVICES",
-            "CASE STUDIES",
-            "BLOGS",
-            "CONTACT",
+            { label: "HOME", href: "/" },
+            { label: "ABOUT US", href: "/about" },
+            { label: "CONTACT US", href: "/contact" },
           ].map((item) => (
-            <div key={item} className="relative group">
-              <button className="text-white text-sm font-medium flex items-center gap-1 hover:text-blue-400 transition">
-                {item}
-                {[
-                  "HOME",
-                  "PAGES",
-                  "SERVICES",
-                  "CASE STUDIES",
-                  "BLOGS",
-                ].includes(item) && <span className="text-xs">▼</span>}
-              </button>
+            <div key={item.label} className="relative group">
+              <a
+                href={item.href}
+                className="text-white text-sm font-medium flex items-center gap-1 hover:text-blue-400 transition"
+              >
+                {item.label}
+              </a>
             </div>
           ))}
         </nav>
@@ -90,25 +83,32 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-[#081031] text-white flex flex-col items-start px-6 pb-4 space-y-3">
           {[
-            "HOME",
-            "PAGES",
-            "SERVICES",
-            "CASE STUDIES",
-            "BLOGS",
-            "CONTACT",
+            { label: "HOME", href: "/" },
+            { label: "ABOUT US", href: "/about" },
+            { label: "CONTACT US", href: "/contact" },
           ].map((item) => (
-            <button
-              key={item}
-              className="w-full text-left font-medium py-1 hover:text-blue-400"
+            <a
+              key={item.label}
+              href={item.href}
+              className="w-full text-left font-medium py-1 hover:text-blue-400 block"
             >
-              {item}
-            </button>
+              {item.label}
+            </a>
           ))}
-          <div className="pt-4">
-            <button className="bg-[#7367F0] hover:bg-[#6157d9] text-white px-5 py-2 rounded-xl font-medium flex items-center gap-2 transition">
+          <div className="pt-4 flex flex-col gap-3">
+            <a
+              href="tel:+918799718615"
+              className="bg-[#7367F0] hover:bg-[#6157d9] text-white px-5 py-2 rounded-xl font-medium flex items-center gap-2 transition no-underline"
+            >
               Appointment
               <ArrowRight className="w-4 h-4" />
-            </button>
+            </a>
+            <a
+              href="tel:+918799718615"
+              className="mt-2 flex items-center gap-2 text-blue-300 font-semibold underline underline-offset-4"
+            >
+              <span>Emergency Call:</span> <span>+918799718615</span>
+            </a>
           </div>
         </div>
       )}

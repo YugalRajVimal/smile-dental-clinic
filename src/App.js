@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
 import Navbar from "./Components/NavBar";
 import Footer from "./Components/Footer";
-
-const About = () => <div>About</div>;
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 
 const App = () => {
   return (
@@ -12,7 +12,8 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       {/* <Footer /> */}
     </Router>

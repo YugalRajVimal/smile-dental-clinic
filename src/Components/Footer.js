@@ -52,23 +52,19 @@ export default function Footer() {
               </h3>
               <ul className="space-y-3 text-base">
                 <li>
-                  <a href="#" className="text-white hover:underline">
+                  <a href="/" className="text-white hover:underline">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="/about" className="text-white hover:underline">
                     About Us
                   </a>
                 </li>
+
                 <li>
-                  <a href="#" className="text-white hover:underline">
-                    Our Doctors
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-white hover:underline">
+                  <a href="/contact" className="text-white hover:underline">
                     Contact
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-white hover:underline">
-                    Blog Classic
                   </a>
                 </li>
               </ul>
