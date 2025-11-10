@@ -10,21 +10,17 @@ import "swiper/css/pagination";
 const slides = [
   {
     id: 1,
-    title: "Your Health, Our Priority",
-    subtitle: "Comprehensive care for your wellbeing.",
-    image: "/banner1.jpg",
+    title: "Straight Teeth, Invivisible Braces",
+    subtitle:
+      "Achieve a beautifully aligned smile without metal brackets. Invisalign® and other clear aligner systems offer a discreet, comfortable way to straighten your teeth.",
+    image: "/banner11.jpg",
   },
   {
     id: 2,
-    title: "Expert Doctors, Trusted Care",
-    subtitle: "Experience healthcare that truly cares.",
-    image: "/bannr2.jpg",
-  },
-  {
-    id: 3,
-    title: "Innovative Treatments for You",
-    subtitle: "Modern solutions to traditional problems.",
-    image: "/banner3.jpg",
+    title: "Dental Care For, Healthy Smiles",
+    subtitle:
+      "Our dental team is dedicated to helping you maintain a healthy, beautiful smile through personalized care and gentle treatments. for a lifetime of confidence and comfort.",
+    image: "/banner22.jpg",
   },
 ];
 
@@ -60,7 +56,7 @@ export default function HeroSection() {
                 transition={{ duration: 1 }}
                 className="absolute inset-0 flex items-center justify-start px-6 md:px-16"
               >
-                <div className="backdrop-blur-md bg-white/10 p-6 md:p-10 rounded-2xl max-w-lg text-left">
+                <div className="backdrop-blur-md bg-white/10 p-6 md:p-10 rounded-2xl max-w-2xl text-left">
                   <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
                     {slide.title}
                   </h1>

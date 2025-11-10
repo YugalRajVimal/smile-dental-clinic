@@ -24,11 +24,11 @@ export default function WhoWeAre() {
         </p>
 
         <div className="flex items-start gap-3">
-          <img
+          {/* <img
             src=""
             alt="Braces Icon"
             className="w-16 md:w-24 flex-shrink-0 md:mr-2"
-          />
+          /> */}
           <ul className="space-y-2 text-[#162146] text-base md:text-lg">
             <li className="flex items-center gap-2">
               <span className="text-indigo-400">✔</span>

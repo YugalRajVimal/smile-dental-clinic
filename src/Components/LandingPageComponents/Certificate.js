@@ -16,12 +16,21 @@ export default function CertificateShowcase() {
         . This achievement demonstrates our commitment to continuous learning,
         innovation, and the highest standards in oral and maxillofacial surgery.
       </p>
-      <div className="flex justify-center items-center w-full">
-        <img
-          src="/cert.jpeg"
-          alt="AIIMS TMJ Workshop Certificate"
-          className="max-w-full max-h-[60vh] rounded-xl shadow-2xl border-4 border-gray-200 bg-white"
-        />
+      <div className="flex justify-center md:flex-row flex-col items-center w-full gap-6">
+        <div className="flex-shrink-0 flex items-center h-[350px]">
+          <img
+            src="/cert.jpeg"
+            alt="AIIMS TMJ Workshop Certificate"
+            className="h-full object-contain max-w-full rounded-xl shadow-2xl border-4 border-gray-200 bg-white"
+          />
+        </div>
+        <div className="flex-shrink-0 flex items-center h-[350px]">
+          <img
+            src="/cert2.jpeg"
+            alt=""
+            className="h-full object-contain max-w-full rounded-xl shadow-2xl border-4 border-gray-200 bg-white"
+          />
+        </div>
       </div>
     </div>
   );

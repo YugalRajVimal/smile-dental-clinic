@@ -6,44 +6,65 @@ import { GiToothbrush, GiSkullSabertooth } from "react-icons/gi";
 const services = [
   {
     id: 1,
-    title: "General Dentistry",
-    desc: "Our general dentistry services are the foundation of a healthy, long-lasting smile.",
+    title: "Root Canal Treatment (Single Sitting) - 10% Off",
+    desc: "Save time and money with our advanced single-visit root canal treatment, now at an exclusive 10% discount. Experience pain-free care for severely decayed or infected teeth.",
     icon: <FaTooth className="w-6 h-6 text-white" />, // Tooth icon
     image: "/den1.jpg",
   },
   {
     id: 2,
-    title: "Teeth Whitening",
-    desc: "Brighten your smile with our professional teeth whitening treatments, radiant smile.",
-    icon: <GiToothbrush className="w-6 h-6 text-white" />, // Toothbrush for whitening
+    title: "Implantologist - 20% Off",
+    desc: "Restore missing teeth with permanent, natural-looking dental implants placed by our experienced implantologist, now at 20% off for a limited time.",
+    icon: <FaUserMd className="w-6 h-6 text-white" />, // Doctor icon
     image: "/den2.jpg",
   },
   {
     id: 3,
-    title: "Orthodontics",
-    desc: "Straighten your smile with our customized orthodontic solutions for children, teens, and adults.",
-    icon: <FaUserMd className="w-6 h-6 text-white" />, // Braces icon for orthodontics
+    title: "Cleaning & Bleaching",
+    desc: "Achieve a brilliant, fresh smile with professional dental cleaning and teeth bleaching services for stain-free, sparkling teeth.",
+    icon: <GiToothbrush className="w-6 h-6 text-white" />, // Toothbrush icon
     image: "/den3.jpg",
   },
   {
     id: 4,
-    title: "Tooth Extractions",
-    desc: "We use modern techniques and offer sedation options to ensure a smooth.",
-    icon: <GiSkullSabertooth className="w-6 h-6 text-white" />, // Extraction tool/tooth with pliers
+    title: "TMJ Specialist",
+    desc: "Get expert diagnosis and treatment for jaw joint (TMJ) disorders to relieve pain, popping, or restricted movement with our TMJ specialist.",
+    icon: <FaUserMd className="w-6 h-6 text-white" />, // Doctor icon
     image: "/den4.jpg",
   },
   {
     id: 5,
-    title: "Pediatric Dentistry",
-    desc: "From your child’s first dental visit to regular checkups and cavity prevention.",
-    icon: <FaChild className="w-6 h-6 text-white" />, // Child icon
+    title: "Orthodontic Treatment",
+    desc: "Straighten crooked or crowded teeth with braces or aligners. Our orthodontic treatments help children, teens, and adults achieve beautiful, aligned smiles.",
+    icon: <FaTooth className="w-6 h-6 text-white" />, // Tooth icon
     image: "/den5.jpg",
   },
   {
     id: 6,
+    title: "Fillings",
+    desc: "Restore decayed, cracked, or chipped teeth with modern, long-lasting dental fillings that blend seamlessly with your natural smile.",
+    icon: <FaTooth className="w-6 h-6 text-white" />, // Tooth icon
+    image: "/banner22.jpg",
+  },
+  {
+    id: 7,
     title: "Cosmetic Dentistry",
-    desc: "Transform your smile and boost your confidence with our personalized cosmetic dentistry",
-    icon: <FaMagic className="w-6 h-6 text-white" />, // Magic wand for "cosmetic"
+    desc: "Boost your confidence with veneers, smile designing, and other cosmetic dentistry solutions tailored to enhance the appearance of your teeth.",
+    icon: <FaMagic className="w-6 h-6 text-white" />, // Magic wand icon
+    image: "/den7.jpg",
+  },
+  {
+    id: 8,
+    title: "Hair Transplant",
+    desc: "Regain your hair and confidence with proven, minimally-invasive hair transplant solutions performed by qualified experts.",
+    icon: <FaUserMd className="w-6 h-6 text-white" />, // Doctor icon (or change to a hair icon if desired)
+    image: "/banner11.jpg",
+  },
+  {
+    id: 9,
+    title: "Skin Specialist",
+    desc: "Avail advanced dermatological treatments for acne, pigmentation, anti-aging, and more from our experienced skin specialists.",
+    icon: <FaUserMd className="w-6 h-6 text-white" />, // Doctor icon (or change to a skin/face icon if desired)
     image: "/den6.jpg",
   },
 ];

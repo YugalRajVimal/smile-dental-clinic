@@ -28,7 +28,6 @@ export default function DentalAppointment() {
             </p>
           </div>
           <div className="bg-[#171e39]/70 px-10 pt-10 pb-3 flex flex-col md:flex-row md:items-center justify-between gap-7 border-t border-indigo-900/60">
-         
             <div>
               <div className="flex flex-col gap-2 text-[#f2f4ff] text-sm font-medium">
                 <div className="flex justify-between w-64">
@@ -63,12 +62,12 @@ export default function DentalAppointment() {
               </span>
               <span>
                 <span className="font-semibold text-[#a3b3fe]">
-                  Visit Our Clinic
+                  Smile Dental Care Gurgaon
                 </span>
                 <br />
-                5th Street, 21st Floor,
+                Sector 56 D 235
                 <br />
-                New York, USA
+                Dr Himanshu Singh BDS MDS Orthodontics, TMJ Specialist
               </span>
             </div>
             <div className="flex items-center gap-3 text-white text-sm">
@@ -94,7 +93,7 @@ export default function DentalAppointment() {
                   href="tel:8884567890"
                   className="text-[#55ffd7] hover:underline font-semibold"
                 >
-                  (888) 4567890
+                  +918799718615
                 </a>
               </span>
             </div>

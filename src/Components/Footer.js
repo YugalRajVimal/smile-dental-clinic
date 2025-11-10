@@ -6,7 +6,7 @@ import InfiniteMarquee2 from "./InfiniteMarquee2";
 export default function Footer() {
   return (
     <footer className="relative bg-gradient-to-br from-[#0b617e] via-[#0b1e3b] via-50% to-[#d77660] to-100% pt-20 pb-0 px-4 md:px-0">
-      <div className="max-w-7xl mx-auto rounded-3xl overflow-visible  pb-10">
+      <div className=" mx-auto rounded-3xl overflow-visible  pb-10">
         <div className="flex flex-col lg:flex-row items-start justify-between gap-12 px-8 py-12">
           {/* Left CARD */}
           <div className="bg-white rounded-xl p-8 shadow-lg w-full sm:w-[350px] mb-4 flex-shrink-0">
@@ -138,7 +138,11 @@ export default function Footer() {
                 <circle cx="10" cy="10" r="10" />
               </svg>
             </span>
-            <span>Visit Our Clinic 5th Street, 21st Floor, New York, USA</span>
+            <span>
+              Visit Our Clinic: Smile Dental Care Gurgaon, Sector 56 D 235
+              <br />
+              Dr Himanshu Singh BDS MDS Orthodontics, TMJ Specialist
+            </span>
           </div>
           <div className="flex items-center gap-2 text-white">
             <span className="bg-[#1ec2ef] rounded-full p-2">
@@ -147,7 +151,7 @@ export default function Footer() {
                 <circle cx="10" cy="10" r="10" />
               </svg>
             </span>
-            <span>General Inquiries info@example.com</span>
+            <span>General Inquiries himanshusingh118763@gmail.com</span>
           </div>
           <div className="flex items-center gap-2 text-white">
             <span className="bg-[#1ec2ef] rounded-full p-2">
@@ -156,7 +160,7 @@ export default function Footer() {
                 <circle cx="10" cy="10" r="10" />
               </svg>
             </span>
-            <span>Emergency Cases (888) 4567890</span>
+            <span>Emergency Cases +918799718615</span>
           </div>
         </div>
       </div>

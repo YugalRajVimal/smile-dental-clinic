@@ -63,7 +63,7 @@ export default function Navbar() {
             <PhoneCall className="w-5 h-5 mr-2 text-blue-400" />
             <div>
               <p className="text-xs text-gray-300">Emergency Call:</p>
-              <p className="font-semibold">(888) 4567890</p>
+              <p className="font-semibold">+918799718615</p>
             </div>
           </div>
 
