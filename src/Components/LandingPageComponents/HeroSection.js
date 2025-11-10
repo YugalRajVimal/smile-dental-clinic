@@ -13,14 +13,14 @@ const slides = [
     title: "Straight Teeth, Invivisible Braces",
     subtitle:
       "Achieve a beautifully aligned smile without metal brackets. Invisalign® and other clear aligner systems offer a discreet, comfortable way to straighten your teeth.",
-    image: "/banner11.jpg",
+    image: "/Banner11.jpg",
   },
   {
     id: 2,
     title: "Dental Care For, Healthy Smiles",
     subtitle:
       "Our dental team is dedicated to helping you maintain a healthy, beautiful smile through personalized care and gentle treatments. for a lifetime of confidence and comfort.",
-    image: "/banner22.jpg",
+    image: "/Banner22.jpg",
   },
 ];
 
