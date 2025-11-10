@@ -404,10 +404,16 @@ const Contact = () => {
             In Case of Emergency
           </h2>
           <p className="text-gray-700 mb-6 font-medium">
-            If you are experiencing a medical emergency,
-            <br />
-            please call <span className="font-bold">911</span> immediately or go
-            to your nearest emergency room.
+            <span>
+              For immediate dental help, you can also call our personal number:{" "}
+              <a
+                href="tel:+918799718615"
+                className="font-bold text-blue-700 underline hover:text-blue-900"
+              >
+                +918799718615
+              </a>
+              .
+            </span>
           </p>
           <div className="space-y-6 mb-8">
             <div className="flex items-center gap-4">
@@ -452,12 +458,14 @@ const Contact = () => {
             </h3>
             <div className="mb-6">
               <div className="flex justify-between py-1">
-                <span>Mon - Fri</span>
-                <span className="font-medium">9:00 - 18:00</span>
+                <span>Mon - Sat</span>
+                <span className="font-medium">03:00 - 07:00</span>
               </div>
               <div className="flex justify-between py-1">
-                <span>Sat - Sun</span>
-                <span className="font-medium">8:00 - 16:00</span>
+                <span> Sun</span>
+                <span className="font-medium">
+                  OFF ( Emergency By Appointment )
+                </span>
               </div>
               <div className="flex justify-between py-1">
                 <span>Emergency</span>
@@ -521,15 +529,21 @@ const Contact = () => {
               />
               <select className="w-full border rounded-lg px-4 py-2 text-lg focus:outline-none">
                 <option>Select Department</option>
-                <option>Dental</option>
-                <option>Orthodontics</option>
+                <option>Root Canal Treatment (Single Sitting) - 10% Off</option>
+                <option>Implantologist - 20% Off</option>
+                <option>Cleaning & Bleaching</option>
+                <option>TMJ Specialist</option>
+                <option>Orthodontic Treatment</option>
+                <option>Fillings</option>
+                <option>Cosmetic Dentistry</option>
+                <option>Hair Transplant</option>
+                <option>Skin Specialist</option>
               </select>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <select className="w-full border rounded-lg px-4 py-2 text-lg focus:outline-none">
                 <option>Select Doctor</option>
                 <option>Dr. Himanshu Singh</option>
-                <option>Dr. Priya Mehta</option>
               </select>
               {/* Date input example */}
               <input

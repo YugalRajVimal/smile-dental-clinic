@@ -42,10 +42,10 @@ export default function WhoWeAre() {
               <span className="text-indigo-400">✔</span>
               Help you achieve optimal oral health
             </li>
-            <li className="flex items-center gap-2">
+            {/* <li className="flex items-center gap-2">
               <span className="text-indigo-400">✔</span>
               Full Mouth X-ray Facility
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

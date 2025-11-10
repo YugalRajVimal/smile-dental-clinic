@@ -60,14 +60,19 @@ export default function Navbar() {
             </div>
           </div>
 
-          <button className="bg-[#7367F0] hover:bg-[#6157d9] text-white px-5 py-2 rounded-xl font-medium flex items-center gap-2 transition">
+          <button
+            className="bg-[#7367F0] hover:bg-[#6157d9] text-white px-5 py-2 rounded-xl font-medium flex items-center gap-2 transition"
+            onClick={() => {
+              window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+            }}
+          >
             Appointment
             <ArrowRight className="w-4 h-4" />
           </button>
 
-          <div className="bg-white/10 hover:bg-white/20 rounded-xl p-3 cursor-pointer transition">
+          {/* <div className="bg-white/10 hover:bg-white/20 rounded-xl p-3 cursor-pointer transition">
             <div className="w-5 h-5 bg-white/70 rounded-md"></div>
-          </div>
+          </div> */}
         </div>
 
         {/* Mobile Menu Button */}

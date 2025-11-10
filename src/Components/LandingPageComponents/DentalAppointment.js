@@ -27,18 +27,18 @@ export default function DentalAppointment() {
               our expert team restore your confidence and smile!
             </p>
           </div>
-          <div className="bg-[#171e39]/70 px-10 pt-10 pb-3 flex flex-col md:flex-row md:items-center justify-between gap-7 border-t border-indigo-900/60">
-            <div>
-              <div className="flex flex-col gap-2 text-[#f2f4ff] text-sm font-medium">
-                <div className="flex justify-between w-64">
-                  <span className="opacity-80">Mon - Fri</span>
-                  <span>9:00 - 18:00</span>
+          <div className="bg-[#171e39]/70 w-full px-10 pt-10 pb-3 flex flex-col md:flex-row md:items-center justify-between gap-7 border-t border-indigo-900/60">
+            <div className="w-full">
+              <div className="flex flex-col w-full gap-2 text-[#f2f4ff] text-sm font-medium">
+                <div className="flex justify-between w-full ">
+                  <span className="opacity-80">Mon - Sat</span>
+                  <span>03:00 - 07:00</span>
                 </div>
-                <div className="flex justify-between w-64">
-                  <span className="opacity-80">Sat - Sun</span>
-                  <span>8:00 - 16:00</span>
+                <div className="flex justify-between  w-full">
+                  <span className="opacity-80">Sun</span>
+                  <span> OFF ( Emergency By Appointment )</span>
                 </div>
-                <div className="flex justify-between w-64">
+                <div className="flex justify-between w-full">
                   <span>Emergency</span>
                   <span className="font-semibold text-[#55ffd7]">24/7</span>
                 </div>
@@ -127,11 +127,15 @@ export default function DentalAppointment() {
               />
               <select className="w-1/2 border border-gray-200 rounded-xl py-3 px-4 text-base appearance-none transition focus:ring-2 focus:ring-[#7d88fd] focus:bg-[#f5f8ff] outline-none">
                 <option>Select Department</option>
-                <option>General Dentistry</option>
-                <option>Orthodontics</option>
+                <option>Root Canal Treatment (Single Sitting) - 10% Off</option>
+                <option>Implantologist - 20% Off</option>
+                <option>Cleaning & Bleaching</option>
+                <option>TMJ Specialist</option>
+                <option>Orthodontic Treatment</option>
+                <option>Fillings</option>
                 <option>Cosmetic Dentistry</option>
-                <option>Implants</option>
-                <option>Pediatric Dentistry</option>
+                <option>Hair Transplant</option>
+                <option>Skin Specialist</option>
               </select>
             </div>
             <div className="flex gap-4">

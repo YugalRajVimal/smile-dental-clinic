@@ -69,20 +69,55 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            {/* Departments */}
+            {/* Services */}
             <div>
               <h3 className="text-white font-semibold text-xl mb-4">
-                Department
+                Services
               </h3>
               <ul className="space-y-3 text-base">
                 <li>
                   <a href="#" className="text-white hover:underline">
-                    Cardiology
+                    Root Canal Treatment (Single Sitting) - 10% Off
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-white hover:underline">
-                    Dentist
+                    Implantologist - 20% Off
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:underline">
+                    Cleaning & Bleaching
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:underline">
+                    TMJ Specialist
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:underline">
+                    Orthodontic Treatment
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:underline">
+                    Fillings
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:underline">
+                    Cosmetic Dentistry
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:underline">
+                    Hair Transplant
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="text-white hover:underline">
+                    Skin Specialist
                   </a>
                 </li>
               </ul>

@@ -19,7 +19,7 @@ const About = () => {
     paragraphs: {
       en: [
         "Welcome to Smile Dental Care, Gurgaon — a modern dental and cosmetic clinic led by Dr. Himanshu Singh (BDS, MDS – Orthodontics & TMJ Specialist). Located at D-235, Sector 56, Gurgaon, our clinic is dedicated to providing world-class dental and aesthetic care in a comfortable, patient-friendly environment.",
-        "Dr. Himanshu Singh is a highly skilled and compassionate Orthodontist and TMJ Specialist with extensive experience in advanced dental and facial treatments. A proud AIIMS-trained specialist, Dr. Singh has completed 2 years of clinical and research experience at AIIMS, Ansari Nagar, New Delhi — one of India’s most prestigious medical institutes.",
+        "Dr. Himanshu Singh is a highly skilled and compassionate Orthodontist and TMJ Specialist with extensive experience in advanced dental and facial treatments. A proud AIIMS-trained specialist, Dr. Himanshu Singh has completed 2 years of clinical and research experience at AIIMS, Ansari Nagar, New Delhi — one of India’s most prestigious medical institutes.",
         "His expertise extends beyond orthodontics to comprehensive oral rehabilitation and facial aesthetics, ensuring that every patient receives personalized, long-lasting results.",
         "At Smile Dental Care, we combine the latest dental technology with compassionate care to create healthy, confident smiles. Our key services include Root Canal Treatments (single sitting), Dental Implants, Braces & Aligners, Cosmetic Dentistry, TMJ Disorder Management, and more — all tailored to your comfort and needs.",
         "We also provide aesthetic and skin care services including Hair Transplant and advanced dermatological treatments, offering a complete wellness experience under one roof.",
@@ -62,7 +62,7 @@ const About = () => {
             <div className="relative flex items-end w-full">
               <div className="flex-shrink-0 flex items-end drop-shadow-xl bg-gradient-to-t from-teal-50 to-blue-100 rounded-2xl">
                 <span className="block text-[5rem] sm:text-[8rem] md:text-[10rem] lg:text-[13rem] leading-none font-extrabold text-blue-900/90 tracking-tight p-1 md:p-2">
-                  10+
+                  3+
                 </span>
                 <span className="block text-[1.7rem] sm:text-[2.2rem] md:text-[3rem] lg:text-[5rem] leading-none font-extrabold text-blue-900/90 tracking-tight p-1 md:p-2">
                   Years
@@ -139,7 +139,7 @@ const About = () => {
           <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
             {/* Text Section */}
             <div className="md:w-[60%] mt-20 md:mt-0 prose prose-invert max-w-none flex flex-col justify-center items-center">
-              <h3 className="text-3xl md:text-4xl text-black font-bold font-montserrat mb-6 tracking-tight">
+              <h3 className="text-3xl md:text-4xl text-black font-bold font-montserrat mb-6 tracking-tight md:whitespace-nowrap">
                 {texts.title[lang]}
               </h3>
 
@@ -169,7 +169,7 @@ const About = () => {
               <div className="absolute -bottom-20 md:-bottom-24 -right-4 bg-gradient-to-r from-[#023893] to-[#3ec2ce] border border-danger/40 rounded-lg p-4 md:p-6 flex items-center justify-center">
                 <div className="text-center">
                   <p className="text-3xl md:text-5xl font-bold font-montserrat text-danger shadow-text">
-                    10+
+                    3+
                   </p>
                   <p className="text-xs md:text-base text-gray-light font-roboto mt-1 md:mt-2">
                     {texts.years[lang]}

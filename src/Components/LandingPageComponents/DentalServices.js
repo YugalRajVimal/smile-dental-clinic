@@ -23,35 +23,35 @@ const services = [
     title: "Cleaning & Bleaching",
     desc: "Achieve a brilliant, fresh smile with professional dental cleaning and teeth bleaching services for stain-free, sparkling teeth.",
     icon: <GiToothbrush className="w-6 h-6 text-white" />, // Toothbrush icon
-    image: "/den3.jpg",
+    image: "/den5.jpg",
   },
   {
     id: 4,
     title: "TMJ Specialist",
     desc: "Get expert diagnosis and treatment for jaw joint (TMJ) disorders to relieve pain, popping, or restricted movement with our TMJ specialist.",
     icon: <FaUserMd className="w-6 h-6 text-white" />, // Doctor icon
-    image: "/den4.jpg",
+    image: "/tmj.jpeg",
   },
   {
     id: 5,
     title: "Orthodontic Treatment",
     desc: "Straighten crooked or crowded teeth with braces or aligners. Our orthodontic treatments help children, teens, and adults achieve beautiful, aligned smiles.",
     icon: <FaTooth className="w-6 h-6 text-white" />, // Tooth icon
-    image: "/den5.jpg",
+    image: "/den3.jpg",
   },
   {
     id: 6,
     title: "Fillings",
     desc: "Restore decayed, cracked, or chipped teeth with modern, long-lasting dental fillings that blend seamlessly with your natural smile.",
     icon: <FaTooth className="w-6 h-6 text-white" />, // Tooth icon
-    image: "/image1.jpeg",
+    image: "/filling.jpeg",
   },
   {
     id: 7,
     title: "Cosmetic Dentistry",
     desc: "Boost your confidence with veneers, smile designing, and other cosmetic dentistry solutions tailored to enhance the appearance of your teeth.",
     icon: <FaMagic className="w-6 h-6 text-white" />, // Magic wand icon
-    image: "/den7.jpg",
+    image: "/cosmetic.jpeg",
   },
   {
     id: 8,
@@ -65,7 +65,7 @@ const services = [
     title: "Skin Specialist",
     desc: "Avail advanced dermatological treatments for acne, pigmentation, anti-aging, and more from our experienced skin specialists.",
     icon: <FaUserMd className="w-6 h-6 text-white" />, // Doctor icon (or change to a skin/face icon if desired)
-    image: "/image2.jpeg",
+    image: "/skin.jpeg",
   },
 ];
 
