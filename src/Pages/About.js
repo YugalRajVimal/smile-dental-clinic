@@ -19,7 +19,8 @@ const About = () => {
     paragraphs: {
       en: [
         "Welcome to Smile Dental Care, Gurgaon — a modern dental and cosmetic clinic led by Dr. Himanshu Singh (BDS, MDS – Orthodontics & TMJ Specialist). Located at D-235, Sector 56, Gurgaon, our clinic is dedicated to providing world-class dental and aesthetic care in a comfortable, patient-friendly environment.",
-        "Dr. Himanshu Singh is a highly skilled and compassionate Orthodontist and TMJ Specialist with extensive experience in advanced dental and facial treatments. A proud AIIMS-trained specialist, Dr. Himanshu Singh has completed 2 years of clinical and research experience at AIIMS, Ansari Nagar, New Delhi — one of India’s most prestigious medical institutes.",
+        "Dr. Himanshu Singh completed his BDS from IDS Dental College, Ghaziabad and is a highly skilled and compassionate Orthodontist and TMJ Specialist with extensive experience in advanced dental and facial treatments.",
+        "A proud AIIMS-trained specialist, Dr. Himanshu Singh has completed 2 years of clinical and research experience at AIIMS, Ansari Nagar, New Delhi — one of India’s most prestigious medical institutes.",
         "His expertise extends beyond orthodontics to comprehensive oral rehabilitation and facial aesthetics, ensuring that every patient receives personalized, long-lasting results.",
         "At Smile Dental Care, we combine the latest dental technology with compassionate care to create healthy, confident smiles. Our key services include Root Canal Treatments (single sitting), Dental Implants, Braces & Aligners, Cosmetic Dentistry, TMJ Disorder Management, and more — all tailored to your comfort and needs.",
         "We also provide aesthetic and skin care services including Hair Transplant and advanced dermatological treatments, offering a complete wellness experience under one roof.",

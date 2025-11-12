@@ -23,7 +23,7 @@ const services = [
     title: "Cleaning & Bleaching",
     desc: "Achieve a brilliant, fresh smile with professional dental cleaning and teeth bleaching services for stain-free, sparkling teeth.",
     icon: <GiToothbrush className="w-6 h-6 text-white" />, // Toothbrush icon
-    image: "/den5.jpg",
+    image: "/cleaning.jpeg",
   },
   {
     id: 4,

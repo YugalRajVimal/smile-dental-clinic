@@ -8,9 +8,9 @@ export default function AboutUsHero() {
       <div
         className="h-[480px] bg-gradient-to-r from-teal-900/70 to-transparent rounded-b-3xl overflow-hidden flex items-center relative"
         style={{
-          backgroundImage: "url('/aboutUsBanner.jpg')",
+          backgroundImage: "url('/abtBanner.png')",
           backgroundSize: "cover",
-          backgroundPosition: "top",
+          backgroundPosition: "top right",
         }}
       >
         <div className="flex flex-col justify-center h-full pl-20 z-20">
