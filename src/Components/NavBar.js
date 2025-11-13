@@ -37,6 +37,8 @@ export default function Navbar() {
           {[
             { label: "HOME", href: "/" },
             { label: "ABOUT US", href: "/about" },
+            { label: "SERVICES", href: "/services" },
+
             { label: "CONTACT US", href: "/contact" },
           ].map((item) => (
             <div key={item.label} className="relative group">
@@ -63,7 +65,10 @@ export default function Navbar() {
           <button
             className="bg-[#7367F0] hover:bg-[#6157d9] text-white px-5 py-2 rounded-xl font-medium flex items-center gap-2 transition"
             onClick={() => {
-              window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+              window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: "smooth",
+              });
             }}
           >
             Appointment

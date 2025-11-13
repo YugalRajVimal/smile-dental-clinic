@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../Components/Footer";
 import AboutUsHero from "./AboutUsHero";
 import InfiniteMarquee from "../Components/LandingPageComponents/InfiniteMarquee";
+import AboutUsSlider from "./AboutUsSlider";
 
 const About = () => {
   const lang = "en";
@@ -181,6 +182,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      <AboutUsSlider />
       <Footer />
     </div>
   );
